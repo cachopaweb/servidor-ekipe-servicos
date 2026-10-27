@@ -1,0 +1,107 @@
+# ==============================================================================
+# .gitignore Padrão para Servidor Delphi (Horse / Boss) & Firebird
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Gerenciador de Dependências (Boss)
+# ------------------------------------------------------------------------------
+modules/
+**/modules/
+
+# ------------------------------------------------------------------------------
+# 2. Bancos de Dados Firebird & InterBase (NÃO ENVIAR PARA O REPOSITÓRIO)
+# ------------------------------------------------------------------------------
+*.fdb
+*.FDB
+*.gdb
+*.GDB
+*.fbk
+*.FBK
+*.gbk
+*.GBK
+*.ib
+*.IB
+*.db
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+*.lck
+*.LCK
+
+# ------------------------------------------------------------------------------
+# 3. Saídas de Compilação e Binários do Delphi (DCU, BPL, EXE, DLL, Linux Bin, etc.)
+# ------------------------------------------------------------------------------
+*.dcu
+*.dpu
+*.o
+*.obj
+*.ddp
+*.map
+*.drc
+*.dres
+*.rsm
+*.tds
+*.bpl
+*.bpi
+*.dcp
+*.exe
+*.dll
+*.ocx
+*.so
+*.dylib
+*.apk
+*.aab
+*.ipa
+dist/ServidorEkipe
+dist - teste/ServidorEkipe
+
+# ------------------------------------------------------------------------------
+# 4. Diretórios de Compilação / Plataformas
+# ------------------------------------------------------------------------------
+**/Win32/
+**/Win64/
+**/Linux64/
+**/OSX32/
+**/OSX64/
+**/Android/
+**/Android64/
+**/iOSDevice32/
+**/iOSDevice64/
+**/iOSSimulator/
+Debug/
+Release/
+**/Debug/
+**/Release/
+
+# ------------------------------------------------------------------------------
+# 5. Arquivos Temporários, Backups e Recuperação da IDE Delphi
+# ------------------------------------------------------------------------------
+*.~*
+*.bak
+*.BAK
+*.local
+*.identcache
+*.projdata
+*.tvsconfig
+*.stat
+*.dsk
+*.dsm
+*.todo
+*.tmp
+
+# Histórico e Auto-Recovery do Delphi
+__history/
+**/__history/
+__recovery/
+**/__recovery/
+
+# ------------------------------------------------------------------------------
+# 6. Arquivos de Sistema Operacional e Editores
+# ------------------------------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+*.log
